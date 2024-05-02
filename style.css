@@ -1,0 +1,108 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+/* navbar css */
+.btnresume{
+    background-color: #000000;
+    color: white;
+    font-weight: 600;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 5px ;
+}
+.btnresume:hover{
+    background-color: #222020;
+    color: white;
+}
+.navbar .navbar-nav .nav-link {
+    font-weight: 700;
+}
+.navbar-brand{
+    font-weight: 800;
+}
+/* herosection */
+.heroright .img-fluid{
+margin-top: 60px;
+}
+.herotext{
+    margin-top: 120px;
+}
+.boxicon{
+    border: 2px solid rgb(34, 33, 33);
+    padding: 8px;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.boxicon:hover{
+    background-color: #000000;
+    color: white;
+    cursor: pointer;
+}
+/* end */
+/* skill css */
+.skill{
+    width: 150px;
+    padding: 30px;
+    border-radius: 14px;
+   border: 3px solid rgb(131, 128, 128); 
+    text-align: center;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: all 0.5s;
+}
+.skill:hover{
+    background-color: black;
+    color: white;
+}
+.projects .card{
+    border: 3px solid rgb(192, 191, 188);
+    border-style: dashed;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+ transition: all 0.5s;
+ cursor: pointer;
+}
+
+
+
+
+/* contact us css start */
+.contactus{
+    background-color: white;
+    padding: 60px;
+width: auto;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+
+
+}
+.contactus input,textarea{
+    display: flex;
+    width: 300px;
+    justify-content: center !important;
+    align-items: center !important;
+    border: 2px solid rgb(136, 132, 132);
+    height: 40px;
+    border-radius: 5px;
+}
+.datacontact{
+color: white;
+padding: 60px;}
+.wave{
+    margin-bottom: -2px !important;
+}
+
+/* project btn */
+.btnproject{
+    padding: 8px;
+    font-weight: 600;
+    border: none;
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.btnproject:hover{
+    background-color: rgb(22, 22, 22);
+}
+.card-title {
+    text-align: center;
+}

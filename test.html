@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Slider</title>
+  <style>
+    .slider {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+    .slides {
+      display: flex;
+      transition: transform 0.5s ease;
+    }
+    .slide {
+      width: 100%;
+      flex: 0 0 auto;
+    }
+    .slide img {
+      width: 100%;
+      height: auto;
+    }
+    /* Animation for sliding */
+    @keyframes slide {
+      0% {
+        transform: translateX(0%);
+      }
+      20% {
+        transform: translateX(0%);
+      }
+      25% {
+        transform: translateX(-100%);
+      }
+      45% {
+        transform: translateX(-100%);
+      }
+      50% {
+        transform: translateX(-200%);
+      }
+      70% {
+        transform: translateX(-200%);
+      }
+      75% {
+        transform: translateX(-300%);
+      }
+      95% {
+        transform: translateX(-300%);
+      }
+      100% {
+        transform: translateX(-400%);
+      }
+    }
+    /* Apply animation to slides */
+    .slides.animate {
+      animation: slide 10s infinite;
+    }
+  </style>
+</head>
+<body>
+  <div class="slider">
+    <div class="slides animate">
+      <div class="slide"><img src="image1.jpg" alt="Slide 1"></div>
+      <div class="slide"><img src="image2.jpg" alt="Slide 2"></div>
+      <div class="slide"><img src="image3.jpg" alt="Slide 3"></div>
+      <!-- Add more slides as needed -->
+    </div>
+  </div>
+</body>
+</html>
